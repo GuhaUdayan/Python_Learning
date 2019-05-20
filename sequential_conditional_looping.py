@@ -9,5 +9,7 @@ for i in range(5) :
         print("inside a for loop")
         if x > 2 :
                 print("Inside the 2nd if statement")
-        print("Done with i iteration", i)
-print("Completion of program")        
+        else :
+                print("In case 2nd if condition is not met")
+        print("Value  of the i iteration", i)
+print("Completion of program")
