@@ -9,6 +9,8 @@ for i in range(5) :
         print("inside a for loop")
         if x > 2 :
                 print("Inside the 2nd if statement")
+        elif x == 5 :
+                print("Inside the else if of statement when x == 5")
         else :
                 print("In case 2nd if condition is not met")
         print("Value  of the i iteration", i)
