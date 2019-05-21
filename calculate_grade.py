@@ -13,5 +13,5 @@ try:
         elif (s < 0.6):
             print("F")
 except:
-    print("score out of range")
+    print("Score out of range")
     quit()
