@@ -1,5 +1,6 @@
 # read a file and calculate the 5 most common words and show their frequency from text file mbox_short.txt
 input_file = raw_input("enter a file:")
+if len(input_file) < 1 : input_file = "mbox_short.txt"
 handle = open(input_file)
 words = list()
 di = dict()
@@ -27,3 +28,10 @@ lst = sorted(lst, reverse = True)
 print("Most common 5 email ids are below :")
 for (k,v) in lst[:5] :
     print(v,k)
+
+x = sorted(di.items())
+print("Print sorted order of tuples: ")
+print(x[:])
+
+
+# print ( sorted ([ (v,k) for k,v in di.items()  ])) - test with this code to be done.
