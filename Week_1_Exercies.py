@@ -1,4 +1,7 @@
+#Course Exerices for Introduction to Data Science in Python - Week 1
+
 people = ['Dr. Christopher Brooks', 'Dr. Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr. Daniel Romero']
+
 
 def split_title_and_name(person):
     title = person.split()[0]
@@ -26,9 +29,9 @@ list(map(split_title_and_name, people)) == list(map(lambda person: person.split(
 
 
 ============
-Many organizations have user ids which are constrained in some way. Imagine you work at an internet service provider and the user ids are all two letters followed by two numbers (e.g. aa49). Your task at such an organization might be to hold a record on the billing activity for each possible user.
-
-Write an initialization line as a single list comprehension which creates a list of all possible user ids. Assume the letters are all lower case.
+# Many organizations have user ids which are constrained in some way. Imagine you work at an internet service provider and the user ids are all two letters followed by two numbers (e.g. aa49). Your task at such an organization might be to hold a record on the billing activity for each possible user.
+#
+# Write an initialization line as a single list comprehension which creates a list of all possible user ids. Assume the letters are all lower case.
 
 lowercase = 'abcdefghijklmnopqrstuvwxyz'
 digits = '0123456789'
